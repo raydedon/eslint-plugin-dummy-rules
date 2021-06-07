@@ -1,0 +1,32 @@
+{
+  "name": "eslint-plugin-dummy-rules",
+  "version": "0.0.0",
+  "description": "dummy rules desc",
+  "keywords": [
+    "eslint",
+    "eslintplugin",
+    "eslint-plugin"
+  ],
+  "author": "animesh ray",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "mocha tests --recursive"
+  },
+  "dependencies": {
+    "requireindex": "~1.1.0"
+  },
+  "devDependencies": {
+    "mocha": "^7.2.0"
+  },
+  "peerDependencies": {
+    "eslint": "^7.28.0"
+  },
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "license": "ISC",
+  "directories": {
+    "lib": "lib",
+    "test": "tests"
+  }
+}
